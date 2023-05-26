@@ -1,0 +1,137 @@
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    width: 1350px;
+    height: fit-content;
+}
+
+#content #wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: 600px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #A8DADC;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content form{
+    display: flex;
+    flex-direction: column;
+}
+
+#content .text_input{
+    padding-bottom: 15px;
+}
+
+#content input{
+    width: 400px;
+    height: 40px;
+    border-style: hidden;
+    border-radius: 20px;
+    font-size: large;
+    gap: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content .text_forgot{
+    display: flex;
+    padding-bottom: 10px;
+    gap: 5px;
+}
+
+#content #divider{
+    width: 1.5px;
+    background-color: #000000;
+}
+
+#content .login_alt{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+
+#content .login_alt #google{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content #google img{
+    margin: 0px 10px 0px 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#content .login_alt #google:hover{
+    color: #ffffff;
+    background-color: #E63946;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#content .login_alt #facebook{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content #facebook img{
+    margin: 0px 10px 0px 10px;
+    width: 20px;
+    height: 20px;
+}
+#content .login_alt #facebook:hover{
+    color: #ffffff;
+    background-color: #E63946;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#content button{
+    width: 300px;
+    height: 40px;
+    border-style: hidden;
+    font-size: medium;
+    font-weight: 100;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content button:hover{
+    color: #ffffff;
+    background-color: #E63946;
+    cursor: pointer;
+    transition: 0.1s;
+}

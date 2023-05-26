@@ -1,0 +1,99 @@
+#content{
+    width: 1350px;
+    height: fit-content;
+}
+
+#content #wrap{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: fit-content;
+}
+
+#content #container{
+    width: 1000px;
+    height: fit-content;
+    margin: 15px 0px;
+    border-radius: 20px;
+    background-color: #A8DADC;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content .top_button{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+
+#content .top_button button{
+    margin: 15px;
+    width: 150px;
+    height: 40px;
+    border-style: hidden;
+    font-size: medium;
+    font-weight: 100;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content #name_aq{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content #cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#content #fish{
+    width: 230px;
+    height: 225px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content #fish:hover{
+    transition: 0.5s;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.3);
+}
+
+#content #fish #image{
+    height: 150px;
+    width: 230px;
+}
+
+#content #fish #image img{
+    object-fit:cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 0.5px solid #1D3557;
+}
+
+#content #fish #specie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75px;
+    padding: 5px 10px;
+}
+
+#content button:hover{
+    color: #ffffff;
+    background-color: #E63946;
+    cursor: pointer;
+    transition: 0.1s;
+}

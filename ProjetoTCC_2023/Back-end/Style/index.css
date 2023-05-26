@@ -1,0 +1,135 @@
+#banner_wrap{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+#banner{
+    width: 1920px;
+    height: 400px;
+}
+
+#content{
+    width: 1350px;
+}
+
+#content #wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+}
+
+#content .top_button{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    width: 1200px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+}
+
+#content .top_button button{
+    width: 130px;
+    height: 40px;
+    border-style: hidden;
+    font-size: medium;
+    font-weight: 100;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content .active button{
+    background-color:#1D3557;
+    color: #ffffff;
+}
+
+#content #cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    gap: 15px;
+}
+
+#content #fish{
+    width: 240px;
+    height: 400px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content #fish:hover{
+    transition: 0.5s;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.3);
+}
+
+#content #fish #image{
+    width: 240px;
+    height: 200px;
+}
+
+#content #fish #image img{
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    width: 240px;
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 0.5px solid #1D3557;
+}
+
+#content #fish #text{
+    height: 200px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+#content #text #specie{
+    height: 40px;
+    padding: 5px;
+}
+
+#content #text #description{
+    width: 230px;
+    height: 80px;
+    padding: 5px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+#content #text .info{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    font-size: 12px;
+}
+
+#content .info img{
+    margin: 0px 5px 0px 5px;
+    width: 15px;
+    height: 15px;
+}
+
+#content .info .datas{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content button:hover{
+    color: #ffffff;
+    background-color: #E63946;
+    cursor: pointer;
+    transition: 0.1s;
+}

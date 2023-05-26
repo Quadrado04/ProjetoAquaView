@@ -1,0 +1,135 @@
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#content{
+    width: 1350px;
+    height: fit-content;
+}
+
+#content #wrap{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: fit-content;
+}
+
+#content #container{
+    width: 1000px;
+    height: fit-content;
+    margin: 15px 0px;
+    border-radius: 20px;
+    background-color: #A8DADC;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content .top_button{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+
+#content .top_button button{
+    margin: 15px;
+    width: 150px;
+    height: 40px;
+    border-style: hidden;
+    font-size: medium;
+    font-weight: 100;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content #name_aq{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 40px;
+    margin-bottom: 40px;
+    padding: 0px 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content form{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#content .img_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+#content .text_container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    width: 960px;
+}
+
+#content #imgfile{
+    object-fit:cover;
+    object-position: center;
+    margin-top: 10px;
+    height: 260px;
+    max-width: 300px;
+    background-color: #eee;
+    border: solid 5px #ccc;
+}
+
+#content #imgfile:hover{
+    background-color: rgb(180, 180, 180);
+    cursor: pointer;
+    transition: .1s;
+}
+
+#content input[type= 'file']{
+    display: none;
+}
+
+#content input, select{
+    width: 400px;
+    height: 40px;
+    border-style: hidden;
+    border-radius: 20px;
+    font-size: medium;
+    padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content #hidden{
+    background-color: #A8DADC;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+#content .text_input{
+    padding-bottom: 15px;
+}
+
+#content button{
+    width: 300px;
+    height: 40px;
+    border-style: hidden;
+    font-size: medium;
+    font-weight: 100;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content button:hover{
+    color: #ffffff;
+    background-color: #E63946;
+    cursor: pointer;
+    transition: 0.1s;
+}

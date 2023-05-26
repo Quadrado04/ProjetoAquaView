@@ -1,0 +1,116 @@
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#content{
+    width: 1350px;
+    height: fit-content;
+}
+
+#content #wrap{
+    width: 1000px;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #A8DADC;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content .top_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 1000px;
+    position: absolute;
+}
+
+#content .top_container button{
+    width: 150px;
+    height: 40px;
+    margin: 0;
+    border-style: hidden;
+    font-size: medium;
+    font-weight: 100;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+#content .img_container{
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+}
+
+#content .text_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#content #imgfile{
+    object-fit:cover;
+    object-position: center;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+    background-color: #eee;
+    border: solid 5px #ccc;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#content #imgfile:hover{
+    background-color: rgb(180, 180, 180);
+    cursor: pointer;
+    transition: .1s;
+}
+
+#content input[type= 'file']{
+    display: none;
+}
+
+#content input{
+    width: 400px;
+    height: 40px;
+    border-style: hidden;
+    border-radius: 20px;
+    font-size: medium;
+    padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content .text_input{
+    padding-bottom: 15px;
+}
+
+#content form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    border-style: hidden;
+    font-size: medium;
+    font-weight: 100;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+#content button:hover{
+    color: #ffffff;
+    background-color: #E63946;
+    cursor: pointer;
+    transition: 0.1s;
+}
