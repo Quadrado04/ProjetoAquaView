@@ -56,6 +56,10 @@ button:hover{
     width: 750px;
 }
 
+#header form{
+    display: flex;
+}
+
 #header #search input{
     margin: 0;
     width: 300px;

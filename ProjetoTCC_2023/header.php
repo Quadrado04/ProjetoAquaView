@@ -4,8 +4,10 @@
                 <a href="index.php"><img id="img" src="Uploads/AquaView_Logo_Horizontal_White.svg"></a>
             </div>
             <div id="search">
-                <input type="text">
-                <button onclick="" type="submit">Pesquisar</button>
+                <form action="searchFish.php" method="POST">
+                    <input type="text" placeholder="O que procura?" name="search">
+                    <button onclick="" type="submit">Pesquisar</button>
+                </form>
             </div>
             <div id="connect">
                     <?php

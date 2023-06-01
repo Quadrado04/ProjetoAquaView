@@ -95,6 +95,13 @@ session_start();
 
         ////////////// CRUD ADM //////////////
 
+        //    SELECT PESQUISA PEIXE POR ESPECIE
+
+        public function getFishSearch($pesquisa,$caract){
+            $cmd = $this->pdo->query("SELECT * FROM peixe WHERE $caract LIKE '%$pesquisa%'");
+            return $cmd->fetchAll(PDO::FETCH_ASSOC);
+        }
+
         //   SELECT TODOS OS USUARIOS
 
         public function getAllUsers(){
