@@ -175,7 +175,7 @@ session_start();
 
         public function getFilter($filter){
             $cmd = $this->pdo->query("SELECT * FROM peixe WHERE tipo = '$filter'");
-                return $cmd->fetchAll(PDO::FETCH_ASSOC);
+            return $cmd->fetchAll(PDO::FETCH_ASSOC);
         }
 
         ////////////// CRUD AQUARIO //////////////
